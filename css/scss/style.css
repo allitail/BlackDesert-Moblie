@@ -1,0 +1,277 @@
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: pink;
+}
+
+.cashbtn {
+  display: block;
+  color: #fff;
+  background-color: #1E1E29;
+  border-sizing: border-box;
+  width: 128px;
+  padding: 10px;
+  border: 4px solid #525359;
+  border-radius: 18px;
+  font-size: 13px;
+  text-align: center;
+}
+
+/*pearlpoint*/
+.wrapper {
+  background: radial-gradient(#475067, #34373F, #14161A);
+}
+
+/*user*/
+header {
+  height: 64px;
+  background: radial-gradient(#475067, #34373F, #14161A);
+}
+
+header .pearlpoint {
+  width: 1100px;
+  margin: 0 auto;
+  height: 20px;
+  position: relative;
+}
+
+header .pearlpoint h1 {
+  color: #fff;
+  font-size: 15px;
+}
+
+header .pearlpoint .point {
+  position: absolute;
+  right: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .pearlpoint .point .p {
+  width: 50px;
+  height: 8px;
+  background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .pearlpoint .point .p > dl {
+  margin: 2px 2px;
+}
+
+header .pearlpoint .point .p dt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+header .user {
+  position: relative;
+}
+
+header .user .material-icons {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 24px;
+  margin: auto;
+  padding: 2px 6px;
+  right: 5px;
+}
+
+/*sub*/
+main {
+  border-radius: 6px;
+  background: radial-gradient(#292C3A, #374450, #4B546B);
+}
+
+main .cashitem .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 12px;
+}
+
+main .cashitem .sub :first-child {
+  margin-left: 2px;
+}
+
+main .cashitem .sub .sub_item {
+  color: #fff;
+  background-color: #474855;
+  width: 84px;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 1px;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 1px;
+  margin-left: 4px;
+}
+
+main .cashitem .sub .sub_item:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#474855), to(#626B7D));
+  background: linear-gradient(to top, #474855, #626B7D);
+}
+
+main .add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .add .dollar, main .add #cashPearl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .add .dollar .cashpearl, main .add #cashPearl .cashpearl {
+  margin: 2px 4px;
+  background-color: #1E1E29;
+  border-radius: 4px;
+}
+
+main .add .dollar .cashpearl h3, main .add #cashPearl .cashpearl h3 {
+  width: 124px;
+  height: 18px;
+  background-color: antiquewhite;
+  font-size: 12px;
+  color: #B18351;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 8px;
+}
+
+main .add .dollar .cashpearl strong h2, main .add #cashPearl .cashpearl strong h2 {
+  font-size: 15px;
+  color: #B18351;
+}
+
+main .add .dollar .cashpearl h4, main .add #cashPearl .cashpearl h4 {
+  color: #fff;
+  font-size: 5px;
+}
+
+main aside .side {
+  background-color: #1E1E29;
+}
+
+main aside .side .tool {
+  list-style: none;
+  /*right: 50px;*/
+  padding: 1px 3px;
+  right: 12px;
+}
+
+/*cashpearl*/
+li {
+  width: 100px;
+  height: 100px;
+  list-style: none;
+}
+
+.cashpearl img.pearl {
+  src: url("/image/pearl.png");
+}
+
+.cashpearl img.roe {
+  src: url("/image/roe.png");
+}
+
+/*aside*/
+/*gametool_*/
+.gametool_1 {
+  width: 280px;
+  height: 80px;
+  position: relative;
+  border-radius: 2px;
+  margin: 2px 2px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #343446;
+}
+
+.gametool_1:hover {
+  background-color: #3E4C6D;
+}
+
+.gametool_2 {
+  width: 280px;
+  height: 80px;
+  position: relative;
+  border-radius: 2px;
+  margin: 2px 2px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #343446;
+}
+
+.gametool_2:hover {
+  background-color: #3E4C6D;
+}
+
+.gametool_3 {
+  width: 280px;
+  height: 80px;
+  position: relative;
+  border-radius: 2px;
+  margin: 2px 2px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #343446;
+}
+
+.gametool_3:hover {
+  background-color: #3E4C6D;
+}
+
+.gametool_4 {
+  width: 280px;
+  height: 80px;
+  position: relative;
+  border-radius: 2px;
+  margin: 2px 2px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #343446;
+}
+
+.gametool_4:hover {
+  background-color: #3E4C6D;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  background-color: firebrick;
+}
+/*# sourceMappingURL=style.css.map */

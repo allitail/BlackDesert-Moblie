@@ -1,0 +1,367 @@
+$c : pink;
+
+$w : #fff;
+$b : #1E1E29;
+
+$bl : #3E4C6D;
+$url : "";
+
+$font:#B18351;
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: $c;
+}
+
+
+
+.cashbtn {
+    display: block;
+
+    color: $w;
+    background-color:  $b;
+    
+    border-sizing: border-box;
+    width: 128px;
+    padding: 10px;
+    border: 4px solid #525359;
+    border-radius: 18px;
+
+    font-size: 13px;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+// header {
+//     .inner {
+//         // width:  1100px;
+//         // margin: 0 auto;
+//         background-color: royalblue;
+//     }
+// }
+
+/*pearlpoint*/
+
+
+
+
+
+.wrapper {
+    background: radial-gradient(#475067, #34373F,  #14161A);
+}
+
+
+
+
+
+
+
+
+/*user*/
+
+
+
+header {
+    
+        height: 64px;
+        // background: linear-gradient(to left, #14161A, )
+        background: radial-gradient(#475067, #34373F,  #14161A);
+        
+        .pearlpoint {
+       
+        width:  1100px;
+        margin: 0 auto;
+        height: 20px;
+        
+       position: relative;
+        h1 {
+            color: $w;
+            font: {
+                size: 15px;
+            };
+        }
+        .point{
+            position: absolute;
+            right: 12px;
+            display: flex;
+            .p {
+                width: 50px;
+                height: 8px;
+                background-color: $c;
+                display: flex;
+         >  dl  {
+            //        width: 84px;
+            //  height: 12px;
+            //  background-color: $b;
+             margin: 2px 2px;
+  
+         }
+            dt  {
+                display: flex;
+                color: $w;
+                }
+            
+        }
+    }
+        
+    }
+    .user {
+        position: relative;
+        .material-icons {
+            position: absolute;
+
+            top: 0;
+            bottom: 0;
+            height: 24px;
+            margin: auto;
+            padding: 2px 6px;
+            right: 5px;
+        }
+    }
+    
+
+}
+
+
+
+/*sub*/
+
+
+main {
+    
+    border: {
+        radius: 6px;
+    };
+    background: radial-gradient(#292C3A, #374450, #4B546B);
+ 
+         .cashitem {
+            
+        .sub {
+             display: flex;
+             padding: {
+                 right: 12px;
+             };
+                 :first-child {
+                    margin: {
+                        left: 2px;
+                        
+                    };
+                }
+                
+            
+            .sub_item {
+                color: $w;
+                background-color: #474855;
+
+                width: 84px;
+                height: 42px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: {
+                    radius: 1px;
+                };
+                
+                font: {
+                    size: 12px;
+                };
+                margin: {
+                    top: 4px;
+                    bottom: 1px;
+                    left: 4px;
+                    
+
+                }
+                &:hover {
+                    background: linear-gradient(to top, #474855, #626B7D);
+                    
+                }
+            }
+  
+        }
+    }
+    .add{
+        display: flex;
+  .dollar {  
+
+   display: flex;
+
+    .cashpearl {
+        
+       margin: 2px 4px;
+    
+        // padding: 2px 24px;
+ 
+        background-color: $b;
+        
+        border: {
+            radius: 4px;
+        };
+        
+        h3 {
+            width: 124px;
+            height: 18px;
+            background-color: antiquewhite;
+            font-size: 12px;
+            color: $font;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: {
+                radius: 8px;
+            };
+
+        }
+        img{
+
+        }
+        strong {
+            h2 {
+                font: {
+                    size: 15px;
+                };
+                color: $font;
+            }
+        }
+        h4 {
+            color: $w;
+            font: {
+                size: 5px;
+            };
+            
+        }
+       
+  
+    }
+    
+
+}
+    #cashPearl {
+        @extend .dollar;
+   
+        //  padding: 20px 1px;
+        // display: flex;  
+  
+    }
+       
+}
+
+aside {
+
+
+      
+    .side {
+        background-color: $b;
+       
+        .tool {
+            list-style: none;
+            /*right: 50px;*/
+             padding: 1px 3px;
+             right: 12px;
+            //  position: absolute;
+        }
+    }
+}
+}
+
+ 
+
+
+
+/*cashpearl*/
+li {
+    width: 100px;
+    height: 100px;
+
+    list-style: none;
+}
+
+$cashpearl: (pearl, roe);
+
+.cashpearl{
+
+@each $cashimg in $cashpearl {
+    img.#{$cashimg} {
+        src: url("/image/#{$cashimg}.png");
+    }
+    
+}
+
+
+}
+// img {
+//     width: 40px;
+//     height: 40px;
+//     background-color: red;
+// }
+
+@for $t from 1 to 5 {
+    .#{$t} {
+
+    }
+}
+
+// main {
+//     .cash
+// }
+
+
+
+
+
+
+
+
+
+
+/*aside*/
+
+
+
+
+
+
+
+
+
+
+
+/*gametool_*/
+@for $t from 1 to 5 {
+    .gametool_#{$t}  {
+        width: 280px;
+        height: 80px;
+        position: relative;
+        
+        border-radius: 2px;
+        margin: 2px 2px;
+        
+        
+        text-align: center;
+        justify-content: center;
+        background-color: lighten($b, 10%);
+        &:hover {
+            background-color: $bl;
+        }
+    }
+}
+
+
+img {
+    width: 20px;
+    height: 20px;
+    background-color: firebrick;
+}
