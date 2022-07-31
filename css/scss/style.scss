@@ -1,14 +1,15 @@
-$c : pink;
+$pink : pink;
 
-$w : #fff;
-$b : #1E1E29;
+$white : #fff;
+$gray-1 : #1E1E29;
 
-$bl : #3E4C6D;
+$gray-3 : #3E4C6D;
 $url : "";
 
-$font:#B18351;
+$brown:#B18351;
 
 
+$mobile : "only screen and (max-width: 335px)";
 
 
 a {
@@ -16,7 +17,7 @@ a {
 }
 
 h1 {
-    color: $c;
+    color: $pink;
 }
 
 
@@ -24,8 +25,8 @@ h1 {
 .cashbtn {
     display: block;
 
-    color: $w;
-    background-color:  $b;
+    color: $white;
+    background-color:  $gray-1;
     
     border-sizing: border-box;
     width: 128px;
@@ -68,13 +69,14 @@ h1 {
 
 
 
-
 /*user*/
 
 
 
 header {
-    
+    @include moblie {
+        background-color: pink;
+    }
         height: 64px;
         // background: linear-gradient(to left, #14161A, )
         background: radial-gradient(#475067, #34373F,  #14161A);
@@ -99,18 +101,18 @@ header {
             .p {
                 width: 50px;
                 height: 8px;
-                background-color: $c;
+                background-color: $pink;
                 display: flex;
          >  dl  {
             //        width: 84px;
             //  height: 12px;
-            //  background-color: $b;
+            //  background-color: $gray-1;
              margin: 2px 2px;
   
          }
             dt  {
                 display: flex;
-                color: $w;
+                color: $white;
                 }
             
         }
@@ -162,7 +164,7 @@ main {
                 
             
             .sub_item {
-                color: $w;
+                color: $white;
                 background-color: #474855;
 
                 width: 84px;
@@ -205,7 +207,7 @@ main {
     
         // padding: 2px 24px;
  
-        background-color: $b;
+        background-color: $gray-1;
         
         border: {
             radius: 4px;
@@ -216,7 +218,7 @@ main {
             height: 18px;
             background-color: antiquewhite;
             font-size: 12px;
-            color: $font;
+            color: $brown;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -237,7 +239,7 @@ main {
             }
         }
         h4 {
-            color: $w;
+            color: $white;
             font: {
                 size: 5px;
             };
@@ -354,7 +356,7 @@ $cashpearl: (pearl, roe);
         justify-content: center;
         background-color: lighten($b, 10%);
         &:hover {
-            background-color: $bl;
+            background-color: $gray-3;
         }
     }
 }
